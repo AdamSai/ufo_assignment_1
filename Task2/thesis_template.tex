@@ -1,0 +1,183 @@
+\documentclass{report}
+\title{Bachelor Thesis Template}
+\author{Adam Saidane}
+\date{October 2020}
+\usepackage{graphicx}
+\usepackage[section]{placeins}
+\usepackage{multirow}
+\graphicspath{ {./img/} }
+\usepackage[nottoc]{tocbibind}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{todonotes}
+\lstloadlanguages{C,C++,csh,Java}
+
+\definecolor{red}{rgb}{0.6,0,0} 
+\definecolor{blue}{rgb}{0,0,0.6}
+\definecolor{green}{rgb}{0,0.8,0}
+\definecolor{cyan}{rgb}{0.0,0.6,0.6}
+\definecolor{cloudwhite}{rgb}{0.9412, 0.9608, 0.8471}
+
+\lstset{
+language=csh,
+basicstyle=\footnotesize\ttfamily,
+numbers=left,
+numberstyle=\tiny,
+numbersep=5pt,
+tabsize=2,
+extendedchars=true,
+breaklines=true,
+frame=b,
+stringstyle=\color{blue}\ttfamily,
+showspaces=false,
+showtabs=false,
+xleftmargin=17pt,
+framexleftmargin=17pt,
+framexrightmargin=5pt,
+framexbottommargin=4pt,
+commentstyle=\color{green},
+morecomment=[l]{//}, %use comment-line-style!
+morecomment=[s]{/*}{*/}, %for multiline comments
+showstringspaces=false,
+morekeywords={ abstract, event, new, struct,
+as, explicit, null, switch,
+base, extern, object, this,
+bool, false, operator, throw,
+break, finally, out, true,
+byte, fixed, override, try,
+case, float, params, typeof,
+catch, for, private, uint,
+char, foreach, protected, ulong,
+checked, goto, public, unchecked,
+class, if, readonly, unsafe,
+const, implicit, ref, ushort,
+continue, in, return, using,
+decimal, int, sbyte, virtual,
+default, interface, sealed, volatile,
+delegate, internal, short, void,
+do, is, sizeof, while,
+double, lock, stackalloc,
+else, long, static,
+enum, namespace, string},
+keywordstyle=\color{cyan},
+identifierstyle=\color{red},
+backgroundcolor=\color{cloudwhite},
+}
+
+\usepackage{caption}
+\DeclareCaptionFont{white}{\color{white}}
+\DeclareCaptionFormat{listing}{\colorbox{blue}{\parbox{\textwidth}{\hspace{15pt}#1#2#3}}}
+\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white, singlelinecheck=false, margin=0pt, font={bf,footnotesize}}
+
+
+
+\begin{document}
+\input{titlepage}
+\tableofcontents
+\listoftodos
+\section{Graphics}
+
+\begin{figure}[ht]
+	\caption{Mankrik, a  man who has lost his wife in the war with the quilboars}
+	\includegraphics[width=0.5\textwidth]{mankrik}
+	\label{mankrik}
+\end{figure}
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=0.5\textwidth]{quilboar}
+	\caption{The assailant who murdered the wife of the man from figure \ref{mankrik} on page \pageref{mankrik}}
+
+\end{figure}
+
+
+
+
+
+\begin{figure}[!ht]
+\centering
+\begin{minipage}{0.4\textwidth}
+	\includegraphics[width=\textwidth]{mankrik_young}
+	\caption{A young Mankrik}
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+	\includegraphics[width=\textwidth]{mankrik_wife}
+	\caption{Mankrik's wife}
+\end{minipage}
+
+\end{figure}
+\missingfigure{insert a picture of Arthas}
+\todo{add a description to the missing picture}
+\FloatBarrier
+\section{Sections}
+This is a section
+\subsection{Subsection}
+This is a subsection
+\subsubsection{Sub sub section}
+This is a subsubsection :)
+\paragraph{This could be}
+ a longer paragraph where we go into detail about a specific issue. This could be any issue at all, which you want to write about.
+ \subparagraph{A subparagraph} could be used when you need to go into more detail about an issue you're writing about in the paragraph.
+\section*{Lists (This is a non-numbered section)}
+\begin{itemize}
+	\item first item in the list
+	\item second item in the list
+\end{itemize}
+
+\begin{enumerate}
+	\item first item in the list
+	\item second item in the list
+\end{enumerate}
+\renewcommand{\labelenumi}{\Roman{enumi}}
+\begin{enumerate}
+	\item first item
+	\item second item
+\end{enumerate}
+
+\renewcommand{\labelitemi}{$\textasteriskcentered$}
+\begin{itemize}
+ 	\item first item
+ 	\item second item
+\end{itemize}
+\section{Table with multiple columns}
+
+
+\begin{center}
+\begin{table}[h]
+\caption{\label{tab: Table showoff} showing off my tables}
+\begin{tabular}{ |l|c|r| } 
+ \hline
+ cell one left aligned & cell two center aligned & cell three right aligned \\ 
+ \hline
+ cell four l aligned & cell five c aligned & cell six r aligned \\ 
+ \hline
+ \multicolumn{3}{|c|}{this spans multiple columns} \\
+ \hline
+ \multirow{2}{*}{Multirow}&X & \\
+ &X &\\
+ \hline
+\end{tabular}
+\medskip
+
+Here is a description, describing that this table above, shows you a few things you can do with tables
+\end{table}
+\end{center}
+Please view table \ref{tab: Table showoff} to get an idea of what you can do with tables.
+\section{Code listing}
+
+\begin{lstlisting}[language={[Sharp]C}, caption={C\# exaple}, label={Script}]
+public static void main(string[] args) {
+	Console.WriteLine("Hello World");
+	var myVar = 10;
+	var hisVar = 20;
+	var max = myVar >= hisVar ? myVar : hisVar;
+}
+\end{lstlisting}
+\todo{change colors of the coding style \ldots}
+\section{Citations}
+Here is a citation from an Einstein article\cite{einstein}. And here is a quote from a book\cite{latexcompanion}. Lastly here is a quote from a website\cite{knuthwebsite}
+
+	\bibliographystyle{plain}
+	\bibliography{references}
+
+\end{document}
