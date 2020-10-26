@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.19)  19 OCT 2020 11:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.19)  26 OCT 2020 08:50
 entering extended mode
 **./main.tex
 (main.tex
@@ -20,6 +20,17 @@ File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
+)
+("C:\Program Files\MiKTeX\tex/latex/tocbibind\tocbibind.sty"
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has section divisions on input line 50.
+
+
+Package tocbibind Note: Using section or other style headings.
+
+) ("C:\Program Files\MiKTeX\tex/latex/url\url.sty"
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 ("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdfmode.def"
 File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
@@ -48,25 +59,66 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 10.
- (main.bbl) [1
+ (main.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+)
+\tf@toc=\write3
+\openout3 = `main.toc'.
+
+ [1
 
 {C:/Users/adams/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-(main.aux) ) 
+Overfull \hbox (5.50064pt too wide) in paragraph at lines 30--31
+[]\OT1/cmr/m/n/10 Evaluate and choose databases and de-sign, re-design and op-t
+i-mize databases. 
+ []
+
+[2] (main.bbl
+Underfull \hbox (badness 2426) in paragraph at lines 4--12
+\OT1/cmr/m/n/10 ning for pro-fes-sions-bach-e-lorud-dan-nelsen i soft-wareud-vi
+kling. (Dan-ish)
+ []
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 4--12
+\OT1/cmr/m/n/10 op-ment].  $\OT1/cmtt/m/n/10 https : / / www . cphbusiness . dk
+ / media / 78341 / pba _ soft _ cba _
+ []
+
+
+Underfull \hbox (badness 3375) in paragraph at lines 14--19
+[]\OT1/cmr/m/n/10 CPHBusiness.  Bach-e-lor project kick-off spring 2019.  $\OT1
+/cmtt/m/n/10 https : / /
+ []
+
+
+Underfull \hbox (badness 3375) in paragraph at lines 21--26
+[]\OT1/cmr/m/n/10 CPHBusiness.  Bach-e-lor project kick-off spring 2019.  $\OT1
+/cmtt/m/n/10 https : / /
+ []
+
+) [3] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 394 strings out of 480790
- 6665 string characters out of 2907054
- 240890 words of memory out of 3000000
- 16475 multiletter control sequences out of 15000+200000
- 535978 words of font info for 36 fonts, out of 3000000 for 9000
+ 574 strings out of 480790
+ 8994 string characters out of 2907054
+ 242890 words of memory out of 3000000
+ 16640 multiletter control sequences out of 15000+200000
+ 537096 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 25i,6n,19p,619b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+ 25i,6n,21p,466b,303s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\adams\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappe
+n/ec/dpi600\tcrm1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program F
 iles/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on main.pdf (1 page, 52155 bytes).
+onts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (3 pages, 93490 bytes).
 PDF statistics:
- 22 PDF objects out of 1000 (max. 8388607)
+ 41 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

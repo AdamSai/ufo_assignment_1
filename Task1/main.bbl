@@ -5,6 +5,23 @@ Lars Bogetoft, Kirsten Ringgård, and Ole Gram-Olesen.
 \newblock Studieordning for professionsbacheloruddannelsen i softwareudvikling.
   ({Danish}) [curriculum for the proffesional bachelor education in software
   development].
-\newblock pages 16--17, 2017.
+\newblock
+  \url{https://www.cphbusiness.dk/media/78341/pba_soft_cba_studieordning_2017.pdf},
+  2017.
+\newblock p. 16-17, Accessed: 25-10-2020.
+
+\bibitem{formalities}
+CPHBusiness.
+\newblock Bachelor project kick-off spring 2019.
+\newblock
+  \url{https://datsoftlyngby.github.io/soft2019spring/BAP-Kick-off.pdf}, 2019.
+\newblock p. 4, Accessed: 25-10-2020.
+
+\bibitem{content}
+CPHBusiness.
+\newblock Bachelor project kick-off spring 2019.
+\newblock
+  \url{https://datsoftlyngby.github.io/soft2019spring/BAP-Kick-off.pdf}, 2019.
+\newblock p. 6, Accessed: 25-10-2020.
 
 \end{thebibliography}
